@@ -3,14 +3,31 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "async-await02": "node ./amfg_jscore/async-await02.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
+    "esm": "^3.2.25",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
+    "node-fetch": "^2.6.0",
     "pug": "2.0.0-beta11"
-  }
+  },
+  "main": "app.js",
+  "module": "main.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Awr0ra/amfg_js_core.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Awr0ra/amfg_js_core/issues"
+  },
+  "homepage": "https://github.com/Awr0ra/amfg_js_core#readme",
+  "description": ""
 }
